@@ -1,22 +1,33 @@
 {
-  "name": "starter-slack-boltjs",
+  "name": "chatgptss",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "A ChatGpt Bot for Only Syntax Squad",
+  "main": "src",
   "scripts": {
-    "dev": "env-cmd node app.js",
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/server.js"
   },
-  "keywords": [],
-  "author": "Kam Lasater <kam.lasater@cyclic.sh>",
+  "author": "SyntaxSquad",
   "license": "ISC",
   "dependencies": {
-    "@slack/bolt": "^3.10.0",
-    "env-cmd": "^10.1.0",
-    "@slack/events-api": "^3.0.1",
+           "@slack/events-api": "^3.0.1",
     "@slack/rtm-api": "^6.1.0",
     "@slack/web-api": "^6.8.1",
-    "openai": "^3.2.1"
+    "axios": "^1.4.0",
+    "bing-chat": "^0.2.3",
+    "chatgpt": "^5.2.4",
+    "dotenv": "^16.0.3",
+    "esm": "^3.2.25",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "firebase-tools": "^12.2.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.0",
+    "node-fetch": "^2.6.9",
+    "openai": "^3.2.1",
+    "request": "^2.88.2",
+    "rest": "^2.0.0",
+    "yt-search": "^2.10.4"
   }
 }
