@@ -14,9 +14,9 @@
   "dependencies": {
     "@slack/bolt": "^3.10.0",
     "env-cmd": "^10.1.0",
-     "@slack/events-api": "^3.0.1",
+    "@slack/events-api": "^3.0.1",
     "@slack/rtm-api": "^6.1.0",
-"@slack/web-api": "^6.8.1",
- "openai": "^3.2.1"
+    "@slack/web-api": "^6.8.1",
+    "openai": "^3.2.1"
   }
 }
